@@ -10,7 +10,11 @@ namespace HelloWorldVA
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! V. Abeshi");
+            string inputReadLine;
+
+            Console.WriteLine("Locate the any key...");
+            inputReadLine = Console.ReadLine();
+            Console.WriteLine("No, not "+inputReadLine);
             Console.ReadLine();
         }
     }
